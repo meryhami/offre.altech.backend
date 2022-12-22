@@ -46,7 +46,6 @@ class UserControllerTest {
 	void testUserDetails() throws UserNotFoundException {
 		ResponseEntity<UserDto> userEntity = userController.findByUsername("zack");
 		Assertions.assertEquals(200, userEntity.getStatusCodeValue());
-
 	}
 
 	@Test
