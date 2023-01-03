@@ -18,6 +18,7 @@ import java.time.LocalDate;
 
 @Entity
 @Data
+@Table
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserEntity {
